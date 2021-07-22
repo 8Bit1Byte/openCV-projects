@@ -7,5 +7,6 @@
 * ### [Number Plate Detection](https://github.com/8Bit1Byte/openCV-projects/tree/main/Number%20Plate%20Detection)
 * ### [Virtual Paint](https://github.com/8Bit1Byte/openCV-projects/tree/main/Virtual%20Paint)
 * ### [Real Time Traffic Sign Detection](https://github.com/8Bit1Byte/openCV-projects/tree/main/Real%20Time%20Traffic%20Sign%20Detection)
+* ### [QR and Bar Code Detection](https://github.com/8Bit1Byte/openCV-projects/tree/main/QR%20and%20Bar%20Code%20Detection)
 
 
