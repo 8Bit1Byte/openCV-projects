@@ -7,9 +7,9 @@ cv2.createTrackbar('Factor', 'Controller', 2, 100, lambda a: None)
 cv2.createTrackbar('Threshold 1', 'Controller', 100, 1000, lambda a: None)
 cv2.createTrackbar('Threshold 2', 'Controller', 100, 1000, lambda a: None)
 
-# vidCap = cv2.VideoCapture(1)
-img = cv2.imread('./resources/sign.png')
-img = cv2.resize(img, (500, 375))
+vidCap = cv2.VideoCapture(1)
+# img = cv2.imread('./resources/sign.png')
+# img = cv2.resize(img, (500, 375))
 def getContours(img):
     contours, heierchy = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
     for cnt in contours:
@@ -26,9 +26,8 @@ def getContours(img):
 
 
 while True:
-    # success, img = vidCap.read()
-    # img = 
-    # img = cv2.resize(img, (500, 400))
+    success, img = vidCap.read()
+    img = cv2.resize(img, (500, 400))
 
     img_contour = img.copy()
     img_blur = cv2.GaussianBlur(img, (7, 7), 1)

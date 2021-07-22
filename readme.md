@@ -6,4 +6,6 @@
 * ### [Document Scanner](https://github.com/8Bit1Byte/openCV-projects/tree/main/Document%20Scanner)
 * ### [Number Plate Detection](https://github.com/8Bit1Byte/openCV-projects/tree/main/Number%20Plate%20Detection)
 * ### [Virtual Paint](https://github.com/8Bit1Byte/openCV-projects/tree/main/Virtual%20Paint)
+* ### [Real Time Traffic Sign Detection](https://github.com/8Bit1Byte/openCV-projects/tree/main/Virtual%20Paint)
+
 
